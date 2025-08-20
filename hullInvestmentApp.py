@@ -106,7 +106,7 @@ if rightmove_url:
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.markdown("<div style='font-weight:bold'>Street Name</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-weight:bold'>List Price</div>", unsafe_allow_html=True)
         st.markdown(f"<div style='margin:10'>{price or 'N/A'}</div>", unsafe_allow_html=True)
 
     with col2:

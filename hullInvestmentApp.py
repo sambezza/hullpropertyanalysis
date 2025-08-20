@@ -83,7 +83,7 @@ st.set_page_config(
 st.title("Berry & Bateman Property Enterprises - Dashboard")
 
 # Path to your existing CSV in the project
-csv_path = "hullpropertyanalysis/ppd_data.csv"  # update this to your file path
+csv_path = "ppd_data.csv"  # update this to your file path
 
 try:
     df = pd.read_csv(csv_path)
